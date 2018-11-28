@@ -32,7 +32,6 @@ header {
   margin: 20px;
 }
 
-
 p {
   font-family: 'Abhaya Libre', serif;
   margin: 5px;
@@ -47,4 +46,20 @@ p {
 #actual-temp {
   font-size: 50px;
   text-align: center;
+}
+
+.hi-lo {
+  display: inline;
+}
+
+.actual-location {
+  vertical-align: middle;
+}
+
+#city-and-state {
+  font-size: 20px;
+}
+
+#country {
+  font-size: 14px;
 }
