@@ -1,0 +1,36 @@
+header {
+  background-color: #fddbdb;
+  color: #ff4d4d;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+.sweater-peach {
+  color: #ff4d4d;
+}
+
+.top-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#actual-weather-card {
+  border-style: dotted;
+  border-radius: 5px;
+  border-color: #f27171;
+  margin: 20px;
+}
+
+#detail-weather-card {
+  border-radius: 5px;
+  border-color: #f27171;
+  border-style: dotted;
+  margin: 20px;
+}
+
+
+p {
+  margin: 20px;
+}
