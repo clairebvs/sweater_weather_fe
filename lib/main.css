@@ -53,16 +53,14 @@ p {
 }
 
 .actual-location {
-  vertical-align: middle;
+  margin-top: 25px;
+  text-align: center;
 }
 
 #city-and-state {
-  font-size: 20px;
+  font-size: 28px;
 }
 
 #country {
   font-size: 14px;
-}
-
-#time-and-date {
 }
