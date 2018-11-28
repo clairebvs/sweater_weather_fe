@@ -6,7 +6,7 @@
 
   <link rel="stylesheet" type='text/css' href="lib/main.css">
   <link rel="stylesheet" type="text/css" href="lib/.css">
-  <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Cedarville+Cursive" rel="stylesheet">
 </head>
 <body>
 
@@ -15,8 +15,19 @@
   </header>
 
   <div class="top-cards">
-    <div id="actual-weather-card">
-      <p>hello<p>
+    <div class="actual-weather-card">
+      <div class="actual-forecast-side">
+        <p id='actual-forecast'><img src="assets/partly-cloudy.png" alt='icon actual forecast' class='forecast-icon'/>Partly Cloudy</p>
+        <p id='actual-temp'>38°</p>
+        <p id='actual-high'>High: 80°</p>
+        <p id='actual-low'>Low: 15°</p>
+      </div>
+
+      <div class="actual-location">
+        <p id='city-and-state'>Denver, CO</p>
+        <p id='country'>United States</p>
+        <p id='time-and-date'>11:11pm, 10/31</p>
+      </div>
     </div>
 
     <div id="detail-weather-card">

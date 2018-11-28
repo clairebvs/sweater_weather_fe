@@ -16,11 +16,13 @@ header {
   justify-content: center;
 }
 
-#actual-weather-card {
+.actual-weather-card {
   border-style: dotted;
   border-radius: 5px;
   border-color: #f27171;
   margin: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 #detail-weather-card {
@@ -32,5 +34,17 @@ header {
 
 
 p {
-  margin: 20px;
+  font-family: 'Abhaya Libre', serif;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.forecast-icon {
+  width: 30px;
+  height: 25px;
+}
+
+#actual-temp {
+  font-size: 50px;
+  text-align: center;
 }
