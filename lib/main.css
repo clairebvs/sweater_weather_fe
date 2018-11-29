@@ -25,7 +25,7 @@ header {
   flex-direction: row;
 }
 
-#detail-weather-card {
+.detail-weather-card {
   border-radius: 5px;
   border-color: #f27171;
   border-style: dotted;

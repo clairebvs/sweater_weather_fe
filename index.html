@@ -15,6 +15,7 @@
   </header>
 
   <div class="top-cards">
+
     <div class="actual-weather-card">
       <div class="actual-forecast-side">
         <p id='actual-forecast'><img src="assets/partly-cloudy.png" alt='icon actual forecast' class='forecast-icon'/>Partly Cloudy</p>
@@ -32,9 +33,23 @@
       </div>
     </div>
 
-    <div id="detail-weather-card">
-      <p> cloudy<p>
+    <div class="detail-weather-card">
+      <span class='details-title'>Details</span>
+      <div id='forecast-icon'>
+        <p><img img src="assets/partly-cloudy.png" alt='forecast cloudy icon' class='right-icon'/></p>
+        <p id='icon-comment'>Partly Cloudy</p>
+        <p><span class='bold-word'>Today:</span> Mostly cloudly until afternoon.</p>
+        <p><span class='bold-word'>Tonight:</span> Partly cloud starting tonight, continuing until tomorrow morning.</p>
+      </div>
+
+      <div id='detail-forecast'>
+        <p><span class='forecast-element'>Feels like</span> 30°</p>
+        <p><span class='forecast-element'>Humidity</span> 75%</p>
+        <p><span class='forecast-element'>Visibility</span> 10.00 miles</p>
+        <p><span class='forecast-element'>UV Index</span> 2(low)</p>
+      </div>
     </div>
+
   </div>
 
   <div class="main-bottom-card">
