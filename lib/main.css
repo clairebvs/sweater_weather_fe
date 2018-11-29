@@ -23,6 +23,7 @@ header {
   margin: 20px;
   display: flex;
   flex-direction: row;
+  flex: 1;
 }
 
 .detail-weather-card {
@@ -30,6 +31,7 @@ header {
   border-color: #f27171;
   border-style: dotted;
   margin: 20px;
+  flex: 1;
 }
 
 p {
@@ -54,6 +56,11 @@ p {
 
 .actual-location {
   vertical-align: middle;
+  flex: 1;
+}
+
+.actual-forecast-side {
+  flex: 1;
 }
 
 #city-and-state {
@@ -62,4 +69,35 @@ p {
 
 #country {
   font-size: 14px;
+}
+
+.detail-weather-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-icon {
+  width: 45px;
+  height: 38px;
+  margin-left: 100px;
+}
+
+#icon-comment {
+  text-align: center;
+}
+
+.details-title {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+#forecast-icon {
+  flex: 1;
+}
+
+#detail-forecast {
+  flex: 1;
+  text-align: center;
 }
