@@ -118,3 +118,27 @@ tr {
   font-weight: bold;
   text-decoration: underline;
 }
+
+.main-bottom-card {
+  display: flex;
+  flex-direction: column;
+  border-style: dotted;
+  border-radius: 5px;
+  border-color: #f27171;
+  margin: 20px;
+}
+
+#hourly-forecast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.forecast-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 7px;
+}
