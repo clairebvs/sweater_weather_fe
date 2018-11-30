@@ -1,14 +1,19 @@
 header {
-  background-color: #fddbdb;
-  color: #ff4d4d;
+  background-color: rgba(0,0,0,.54);
+  color: #ffffff;
   text-align: center;
   font-size: 40px;
   font-family: 'Cedarville Cursive', cursive;
   height: 60px;
 }
 
+.background-image {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/DenverCP.JPG/2560px-DenverCP.JPG");
+  background-size: cover;
+}
+
 .sweater-peach {
-  color: #ff4d4d;
+  color: #ffffff;
 }
 
 .top-cards {
@@ -18,27 +23,29 @@ header {
 }
 
 .actual-weather-card {
-  border-style: dotted;
   border-radius: 5px;
-  border-color: #f27171;
   margin: 20px;
   display: flex;
   flex-direction: row;
   flex: 1;
+  background-color: rgba(0,0,0,.54);
+  color: white;
 }
 
 .detail-weather-card {
+  display: flex;
+  flex-direction: row;
   border-radius: 5px;
-  border-color: #f27171;
-  border-style: dotted;
   margin: 20px;
   flex: 1;
+  background-color: rgba(0,0,0,.54);
+  color: white;
 }
 
 p {
   font-family: 'Abhaya Libre', serif;
   margin: 5px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .forecast-icon {
@@ -70,11 +77,6 @@ p {
 
 #country {
   font-size: 14px;
-}
-
-.detail-weather-card {
-  display: flex;
-  flex-direction: row;
 }
 
 .right-icon {
@@ -122,10 +124,10 @@ tr {
 .main-bottom-card {
   display: flex;
   flex-direction: column;
-  border-style: dotted;
   border-radius: 5px;
-  border-color: #f27171;
   margin: 20px;
+  background-color: rgba(0,0,0,.54);
+  color: white;
 }
 
 #hourly-forecast {
@@ -146,6 +148,7 @@ tr {
 .day-icon {
   width: 28px;
   height: 23px;
+  opacity: 0.5;
 }
 
 #daily-forecast {
