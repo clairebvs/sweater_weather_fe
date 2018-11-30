@@ -142,3 +142,18 @@ tr {
   margin-left: 8px;
   margin-bottom: 7px;
 }
+
+.day-icon {
+  width: 28px;
+  height: 23px;
+}
+
+#daily-forecast {
+  display: flex;
+  flex-direction: column;
+}
+
+.day-div {
+  display: flex;
+  justify-content: space-around;
+}
