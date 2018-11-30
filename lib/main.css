@@ -2,8 +2,9 @@ header {
   background-color: #fddbdb;
   color: #ff4d4d;
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
   font-family: 'Cedarville Cursive', cursive;
+  height: 60px;
 }
 
 .sweater-peach {
@@ -79,11 +80,13 @@ p {
 .right-icon {
   width: 45px;
   height: 38px;
-  margin-left: 100px;
+  display: block;
+  margin: auto;
 }
 
 #icon-comment {
   text-align: center;
+  margin-bottom: 12px;
 }
 
 .details-title {
