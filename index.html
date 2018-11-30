@@ -15,133 +15,133 @@
     <span class="sweater-peach">Sweater</span> Weather
   </header>
 
-  <div class="top-cards">
+  <div class="background-image">
+    <div class="top-cards">
+      <div class="actual-weather-card">
+        <div class="actual-forecast-side">
+          <p id='actual-forecast'><img src="assets/partly-cloudy.png" alt='icon actual forecast' class='forecast-icon'/>Partly Cloudy</p>
+          <p id='actual-temp'>38°</p>
+          <div id='hi-lo'>
+            <p id="actual-high" style="display: inline">High: 80°</p>
+            <p id="actual-low" style="display: inline">Low: 15°</p>
+          </div>
+        </div>
 
-    <div class="actual-weather-card">
-      <div class="actual-forecast-side">
-        <p id='actual-forecast'><img src="assets/partly-cloudy.png" alt='icon actual forecast' class='forecast-icon'/>Partly Cloudy</p>
-        <p id='actual-temp'>38°</p>
-        <div id='hi-lo'>
-          <p id="actual-high" style="display: inline">High: 80°</p>
-          <p id="actual-low" style="display: inline">Low: 15°</p>
+        <div class="actual-location">
+          <p id='city-and-state'>Denver, CO</p>
+          <p id='country'>United States</p>
+          <p id='time-and-date'>11:11pm, 10/31</p>
         </div>
       </div>
 
-      <div class="actual-location">
-        <p id='city-and-state'>Denver, CO</p>
-        <p id='country'>United States</p>
-        <p id='time-and-date'>11:11pm, 10/31</p>
+      <div class="detail-weather-card">
+        <div id='forecast-icon'>
+          <span class='details-title'>Details</span>
+          <p><img img src="assets/partly-cloudy.png" alt='forecast cloudy icon' class='right-icon'/></p>
+          <p id='icon-comment'>Partly Cloudy</p>
+          <p><span class='bold-word'>Today:</span> Mostly cloudly until afternoon.</p>
+          <p><span class='bold-word'>Tonight:</span> Partly cloud starting tonight, continuing until tomorrow morning.</p>
+        </div>
+
+        <div id='detail-forecast'>
+          <table>
+            <tr>
+              <td>Feels Like</td>
+              <td>30°</td>
+            </tr>
+            <tr>
+              <td>Humidity</td>
+              <td>75%</td>
+            </tr>
+            <tr>
+              <td>Visibility</td>
+              <td>10.00 miles</td>
+            </tr>
+            <tr>
+              <td>UV Index</td>
+              <td>2 (low)</td>
+            </tr>
+          </table>
+        </div>
       </div>
+
     </div>
 
-    <div class="detail-weather-card">
-      <div id='forecast-icon'>
-        <span class='details-title'>Details</span>
-        <p><img img src="assets/partly-cloudy.png" alt='forecast cloudy icon' class='right-icon'/></p>
-        <p id='icon-comment'>Partly Cloudy</p>
-        <p><span class='bold-word'>Today:</span> Mostly cloudly until afternoon.</p>
-        <p><span class='bold-word'>Tonight:</span> Partly cloud starting tonight, continuing until tomorrow morning.</p>
+    <div class="main-bottom-card">
+      <span class='forecast-title'>Forecast</span>
+      <div id='hourly-forecast'>
+        <div id='first-hour'>
+          <p class='time'>11 PM</p>
+          <p class='temperature'>38°</p>
+        </div>
+        <div id='second-hour'>
+          <p class='time'>12 AM</p>
+          <p class='temperature'>38°</p>
+        </div>
+        <div id='third-hour'>
+          <p class='time'>1 AM</p>
+          <p class='temperature'>38°</p>
+        </div>
+        <div id='fourth-hour'>
+          <p class='time'>2 AM</p>
+          <p class='temperature'>38°</p>
+        </div>
+        <div id='fifth-hour'>
+          <p class='time'>3 AM</p>
+          <p class='temperature'>38°</p>
+        </div>
+        <div id='sixth-hour'>
+          <p class='time'>4 AM</p>
+          <p class='temperature'>38°</p>
+        </div>
+        <div id='seventh-hour'>
+          <p class='time'>5 AM</p>
+          <p class='temperature'>38°</p>
+        </div>
+        <div id='eigth-hour'>
+          <p class='time'>6 AM</p>
+          <p class='temperature'>38°</p>
+        </div>
       </div>
 
-      <div id='detail-forecast'>
-        <table>
-          <tr>
-            <td>Feels Like</td>
-            <td>30°</td>
-          </tr>
-          <tr>
-            <td>Humidity</td>
-            <td>75%</td>
-          </tr>
-          <tr>
-            <td>Visibility</td>
-            <td>10.00 miles</td>
-          </tr>
-          <tr>
-            <td>UV Index</td>
-            <td>2 (low)</td>
-          </tr>
-        </table>
+      <div id='daily-forecast'>
+        <div class='day-div'>
+          <p class='day'>Wednesday</p>
+          <p class='day-forecast'><img src="assets/sunny.png" alt="sunny" class='day-icon'> Sunny</p>
+          <p class='day-precipitation'><img src="assets/rain-drop.jpeg" alt="Rain Drop" class='day-icon'> 90%</p>
+          <p class='day-high'><img src="assets/arrow-up.png" alt="arrow Up" class='day-icon'> 55°</p>
+          <p class='day-low'><img src="assets/arrow-down.png" alt="arrow Down" class='day-icon'> 45°</p>
+        </div>
+        <div class='day-div'>
+          <p class='day'>Wednesday</p>
+          <p class='day-forecast'><img src="assets/sunny.png" alt="sunny" class='day-icon'> Sunny</p>
+          <p class='day-precipitation'><img src="assets/rain-drop.jpeg" alt="Rain Drop" class='day-icon'> 90%</p>
+          <p class='day-high'><img src="assets/arrow-up.png" alt="arrow Up" class='day-icon'> 55°</p>
+          <p class='day-low'><img src="assets/arrow-down.png" alt="arrow Down" class='day-icon'> 45°</p>
+        </div>
+        <div class='day-div'>
+          <p class='day'>Wednesday</p>
+          <p class='day-forecast'><img src="assets/sunny.png" alt="sunny" class='day-icon'> Sunny</p>
+          <p class='day-precipitation'><img src="assets/rain-drop.jpeg" alt="Rain Drop" class='day-icon'> 90%</p>
+          <p class='day-high'><img src="assets/arrow-up.png" alt="arrow Up" class='day-icon'> 55°</p>
+          <p class='day-low'><img src="assets/arrow-down.png" alt="arrow Down" class='day-icon'> 45°</p>
+        </div>
+        <div class='day-div'>
+          <p class='day'>Wednesday</p>
+          <p class='day-forecast'><img src="assets/sunny.png" alt="sunny" class='day-icon'> Sunny</p>
+          <p class='day-precipitation'><img src="assets/rain-drop.jpeg" alt="Rain Drop" class='day-icon'> 90%</p>
+          <p class='day-high'><img src="assets/arrow-up.png" alt="arrow Up" class='day-icon'> 55°</p>
+          <p class='day-low'><img src="assets/arrow-down.png" alt="arrow Down" class='day-icon'> 45°</p>
+        </div>
+        <div class='day-div'>
+          <p class='day'>Wednesday</p>
+          <p class='day-forecast'><img src="assets/sunny.png" alt="sunny" class='day-icon'> Sunny</p>
+          <p class='day-precipitation'><img src="assets/rain-drop.jpeg" alt="Rain Drop" class='day-icon'> 90%</p>
+          <p class='day-high'><img src="assets/arrow-up.png" alt="arrow Up" class='day-icon'> 55°</p>
+          <p class='day-low'><img src="assets/arrow-down.png" alt="arrow Down" class='day-icon'> 45°</p>
+        </div>
       </div>
     </div>
-
-  </div>
-
-  <div class="main-bottom-card">
-    <span class='forecast-title'>Forecast</span>
-    <div id='hourly-forecast'>
-      <div id='first-hour'>
-        <p class='time'>11 PM</p>
-        <p class='temperature'>38°</p>
-      </div>
-      <div id='second-hour'>
-        <p class='time'>12 AM</p>
-        <p class='temperature'>38°</p>
-      </div>
-      <div id='third-hour'>
-        <p class='time'>1 AM</p>
-        <p class='temperature'>38°</p>
-      </div>
-      <div id='fourth-hour'>
-        <p class='time'>2 AM</p>
-        <p class='temperature'>38°</p>
-      </div>
-      <div id='fifth-hour'>
-        <p class='time'>3 AM</p>
-        <p class='temperature'>38°</p>
-      </div>
-      <div id='sixth-hour'>
-        <p class='time'>4 AM</p>
-        <p class='temperature'>38°</p>
-      </div>
-      <div id='seventh-hour'>
-        <p class='time'>5 AM</p>
-        <p class='temperature'>38°</p>
-      </div>
-      <div id='eigth-hour'>
-        <p class='time'>6 AM</p>
-        <p class='temperature'>38°</p>
-      </div>
-    </div>
-
-    <div id='daily-forecast'>
-      <div class='day-div'>
-        <p class='day'>Wednesday</p>
-        <p class='day-forecast'><img src="assets/sunny.png" alt="sunny" class='day-icon'> Sunny</p>
-        <p class='day-precipitation'><img src="assets/rain-drop.jpeg" alt="Rain Drop" class='day-icon'> 90%</p>
-        <p class='day-high'><img src="assets/arrow-up.png" alt="arrow Up" class='day-icon'> 55°</p>
-        <p class='day-low'><img src="assets/arrow-down.png" alt="arrow Down" class='day-icon'> 45°</p>
-      </div>
-      <div class='day-div'>
-        <p class='day'>Wednesday</p>
-        <p class='day-forecast'><img src="assets/sunny.png" alt="sunny" class='day-icon'> Sunny</p>
-        <p class='day-precipitation'><img src="assets/rain-drop.jpeg" alt="Rain Drop" class='day-icon'> 90%</p>
-        <p class='day-high'><img src="assets/arrow-up.png" alt="arrow Up" class='day-icon'> 55°</p>
-        <p class='day-low'><img src="assets/arrow-down.png" alt="arrow Down" class='day-icon'> 45°</p>
-      </div>
-      <div class='day-div'>
-        <p class='day'>Wednesday</p>
-        <p class='day-forecast'><img src="assets/sunny.png" alt="sunny" class='day-icon'> Sunny</p>
-        <p class='day-precipitation'><img src="assets/rain-drop.jpeg" alt="Rain Drop" class='day-icon'> 90%</p>
-        <p class='day-high'><img src="assets/arrow-up.png" alt="arrow Up" class='day-icon'> 55°</p>
-        <p class='day-low'><img src="assets/arrow-down.png" alt="arrow Down" class='day-icon'> 45°</p>
-      </div>
-      <div class='day-div'>
-        <p class='day'>Wednesday</p>
-        <p class='day-forecast'><img src="assets/sunny.png" alt="sunny" class='day-icon'> Sunny</p>
-        <p class='day-precipitation'><img src="assets/rain-drop.jpeg" alt="Rain Drop" class='day-icon'> 90%</p>
-        <p class='day-high'><img src="assets/arrow-up.png" alt="arrow Up" class='day-icon'> 55°</p>
-        <p class='day-low'><img src="assets/arrow-down.png" alt="arrow Down" class='day-icon'> 45°</p>
-      </div>
-      <div class='day-div'>
-        <p class='day'>Wednesday</p>
-        <p class='day-forecast'><img src="assets/sunny.png" alt="sunny" class='day-icon'> Sunny</p>
-        <p class='day-precipitation'><img src="assets/rain-drop.jpeg" alt="Rain Drop" class='day-icon'> 90%</p>
-        <p class='day-high'><img src="assets/arrow-up.png" alt="arrow Up" class='day-icon'> 55°</p>
-        <p class='day-low'><img src="assets/arrow-down.png" alt="arrow Down" class='day-icon'> 45°</p>
-      </div>
-    </div>
-
   </div>
 
     <script
