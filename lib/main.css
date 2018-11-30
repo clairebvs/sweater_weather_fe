@@ -37,7 +37,7 @@ header {
 p {
   font-family: 'Abhaya Libre', serif;
   margin: 5px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .forecast-icon {
@@ -97,7 +97,21 @@ p {
   flex: 1;
 }
 
-#detail-forecast {
-  flex: 1;
-  text-align: center;
+#detail-forecast table {
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 12px;
+}
+
+tr {
+  font-family: 'Abhaya Libre', serif;
+}
+
+.forecast-element {
+  text-align: right;
+}
+
+.bold-word {
+  font-weight: bold;
+  text-decoration: underline;
 }
