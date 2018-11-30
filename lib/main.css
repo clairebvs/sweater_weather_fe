@@ -148,6 +148,7 @@ tr {
 .day-icon {
   width: 28px;
   height: 23px;
+  opacity: 0.5;
 }
 
 #daily-forecast {
