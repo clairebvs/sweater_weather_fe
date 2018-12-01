@@ -18,13 +18,10 @@
   <button class="open-button" onclick="openForm()">Change Location</button>
 
   <div class="form-popup" id="myForm">
-    <form action="/action_page.php" class="form-container">
+    <input type="text" placeholder="Enter City and Zip Code" name="city" id='userLocation' required>
 
-      <input type="text" placeholder="Enter City and Zip Code" name="city" required>
-
-      <button type="submit" class="btn">Submit</button>
-      <button type="submit" class="btn cancel" onclick="closeForm()">Cancel</button>
-    </form>
+    <button type="submit" class="btn" id='submit-location'>Submit</button>
+    <button type="submit" class="btn cancel" onclick="closeForm()">Cancel</button>
   </div>
 
   <div class="background-image">
