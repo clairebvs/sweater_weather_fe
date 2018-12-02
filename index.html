@@ -15,6 +15,15 @@
     <span class="sweater-peach">Sweater</span> Weather
   </header>
 
+  <button class="open-button" onclick="openForm()">Change Location</button>
+
+  <div class="form-popup" id="myForm">
+    <input type="text" placeholder="Enter City and Zip Code" name="city" id='userLocation' required>
+
+    <button type="submit" class="btn" id='submit-location'>Submit</button>
+    <button type="submit" class="btn cancel" onclick="closeForm()">Cancel</button>
+  </div>
+
   <div class="background-image">
     <div class="top-cards">
       <div class="actual-weather-card">
@@ -148,5 +157,6 @@
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
   </script>
   <script src="main.bundle.js"></script>
+  <script src="lib/index.js"></script>
 </body>
 </html>

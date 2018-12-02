@@ -160,3 +160,16 @@ tr {
   display: flex;
   justify-content: space-around;
 }
+
+.form-popup {
+  display: none;
+  position: fixed;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
