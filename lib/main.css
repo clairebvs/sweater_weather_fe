@@ -79,7 +79,7 @@ p {
   font-size: 14px;
 }
 
-.right-icon {
+.forecast-icon {
   width: 45px;
   height: 38px;
   display: block;
@@ -158,7 +158,7 @@ tr {
 
 .day-div {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .form-popup {
