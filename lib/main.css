@@ -158,7 +158,7 @@ tr {
 
 .day-div {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .form-popup {
