@@ -14,6 +14,12 @@ Also once you have cloned down the repo you can type those following command lin
 
 Then visit localhost:8080 
 
+Tech used : 
+JavaScript ES6 
+jQuery
+CSS3
+HTML5
+
 CORE CONTRIBUTORS : 
 Claire Beauvais / GitHub username : clairebvs
 
