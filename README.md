@@ -1,79 +1,36 @@
-# Self-Directed Front-End Start Kit
+INTRODUCTION : 
 
-## Initial Setup
+Sweater Weather is a weather application designed to give various information to the user. 
 
-1. Clone this starter kit repository and rename the repository to anything you'd like in one command:
+After selecting a location (city and state) you will be able to find out what the current weather is for that location. You will also know the weather for the next few days and the hourly weather for the day. A background image of the city you searched for will be displayed.
 
-  ```shell
-  git clone git@github.com:turingschool-projects/self-directed-fe-starter.git <name of your choice>
-  ```
-2. Change into the new director directory.
+INITIAL SETUP : 
+You can visit the deployed add by following this link : https://clairebvs.github.io/sweater_weather_fe/
 
-3. Remove the default remote (origin):
+Also once you have cloned down the repo you can type those following command lines : 
 
-  ```shell
-  git remote rm origin
-  ```
+``` npm install ```
+``` npm start ``` 
 
-4. Create a new repository on GitHub.
+Then visit localhost:8080 
 
-5. Add your new repository remote - **your remote URL and user name will be different in the command below**
+CORE CONTRIBUTORS : 
+Claire Beauvais / GitHub username : clairebvs
 
-  ```shell
-  git remote add origin git@github.com:<YOUR GITHUB NAME>/<PROJECT NAME>.git
-  ```
+This application was created as the first project of the Module 4 (see Turing's curriculum) to build a front-end using JS, JQuery to consume our API created previously as our backend app (https://github.com/clairebvs/sweater_weather). 
 
-6. Install the dependencies of the starter kit:
-
-  ```shell
-  npm install
-  ```
-
-7. Add, commit, and push up to your repository:
-
-  ```shell
-  git add .
-  git commit -m "Initial commit using starter kit"
-  git push origin master
-  ```
-
-## Running the Server Locally
-
-To see your code in action locally, you need to fire up a development server. Use the command:
-
-```shell
-npm start
-```
-
-Once the server is running, visit in your browser:
-
-* `http://localhost:8080/` to run your application.
+The application is divided in three cards : 
+- top left card that contains current weather and location information
+- top right card that contains more detailed current weather information 
+- bottom/main card that contains the hourly weather (9 times) and the forecast for the next 5 days. 
 
 
-## GitHub Pages Setup
-
-This site will be served from GitHub Pages in production.
-
-In order to see your application running on production:
-
-1. From the command line, run `npm run build`.
-
-2. Commit and push your application to GitHub.
-
-3. Visit your repository on Github
-
-4. Go to Settings
-
-5. Under the Github Pages section of Options, select 'master' as your source and click `Save`
-
-Be sure to `npm run build` and commit before each push to master. A few seconds after you push up, you should be able to see your application at <https://your-github-username.github.io/project-name>.
 
 
-## Built With
 
-* [JavaScript](https://www.javascript.com/)
-* [jQuery](https://jquery.com/)
-* [Express](https://expressjs.com/)
-* [Mocha](https://mochajs.org/)
-* [Chai](https://chaijs.com/)
+
+
+
+
+
 
